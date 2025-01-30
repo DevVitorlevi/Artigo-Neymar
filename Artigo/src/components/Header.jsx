@@ -1,11 +1,12 @@
 
+import image from '../assets/santos.jpg'
 
 const Header = () => {
 
     return (
         <>
             <header>
-                <h1>Santos</h1>
+                <img src={image} alt="" />
             </header>
         </>
     )
