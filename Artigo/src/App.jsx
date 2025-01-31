@@ -2,9 +2,10 @@
 import './styles/App.css'
 import image from './assets/download.jpeg'
 import image2 from './assets/neymar.jpg'
-import image3 from './assets/neymar2.jpg'
+
 import Content from './components/Content'
 import Header from './components/Header'
+import Footer from './components/Footer'
 
 function App() {
 
@@ -13,7 +14,6 @@ function App() {
     <>
       <Header />
       <section>
-
         <Content>
           <h1 className='title'>Neymar de Volta ao Santos: O Retorno do Ídolo ao Clube que o Revelou</h1>
           <img src={image} alt="" />
@@ -44,16 +44,17 @@ function App() {
           <h2 className="section-title">Reações da Torcida e do Futebol Brasileiro</h2>
           <p className="Text">A repercussão da notícia foi estrondosa entre os torcedores do Santos, que comemoraram nas redes sociais e fizeram filas para garantir ingressos para a reestreia do craque. O futebol brasileiro como um todo também se agitou com a novidade, com torcedores de outros clubes demonstrando respeito e admiração pela decisão de Neymar. Ex-jogadores e personalidades do esporte se manifestaram, enaltecendo a importância desse retorno não apenas para o Santos, mas para todo o cenário esportivo do país. Com Neymar novamente atuando no Brasil, o campeonato nacional ganha ainda mais visibilidade e atrai os olhares do mundo para o futebol brasileiro.</p>
         </Content>
-        <h2 className="section-title">Expectativa Para o Futuro</h2>
-        <img src={image3} alt="" />
-        <p className="Text">O futuro de Neymar no Santos promete ser repleto de expectativas. A torcida espera que ele assuma um papel de liderança dentro de campo, guiando o time para novas conquistas e ajudando a revelar novos talentos, assim como ele foi revelado no passado. Existe uma grande curiosidade sobre quanto tempo ele permanecerá no clube e se essa volta representa um passo final antes da aposentadoria ou apenas uma nova fase em sua carreira. Independentemente do que venha a acontecer, a presença do craque reacende a esperança de dias gloriosos para o Santos.</p>
-        <Content />
+        <Content>
+          <h2 className="section-title">Expectativa Para o Futuro</h2>
+          <p className="Text">O futuro de Neymar no Santos promete ser repleto de expectativas. A torcida espera que ele assuma um papel de liderança dentro de campo, guiando o time para novas conquistas e ajudando a revelar novos talentos, assim como ele foi revelado no passado. Existe uma grande curiosidade sobre quanto tempo ele permanecerá no clube e se essa volta representa um passo final antes da aposentadoria ou apenas uma nova fase em sua carreira. Independentemente do que venha a acontecer, a presença do craque reacende a esperança de dias gloriosos para o Santos.</p>
+        </Content>
 
         <Content>
           <h2 className="section-title">Curiosidade e Simbolismo</h2>
           <p className="Text">O retorno de Neymar ao clube também traz um forte simbolismo. Ele volta para o mesmo estádio onde construiu sua idolatria, a Vila Belmiro, e vestirá novamente a camisa que o projetou para o mundo. Ainda não foi confirmado se ele usará o número 10, mas qualquer que seja sua escolha, o significado será imenso para os torcedores. Comparações com outros ídolos que retornaram aos seus clubes de origem, como Ronaldinho Gaúcho no Grêmio e Ronaldo no Corinthians, são inevitáveis, mostrando que grandes craques sempre buscam voltar para onde tudo começou. Assim, Neymar escreve mais um capítulo emocionante em sua história com o Santos, um reencontro que promete marcar época no futebol brasileiro.</p>
         </Content>
       </section>
+      <Footer />
     </>
   )
 }

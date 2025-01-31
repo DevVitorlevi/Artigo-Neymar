@@ -1,0 +1,13 @@
+.header {
+    background-color: whitesmoke;
+    padding: 10px;
+    height: 10rem;
+    box-shadow: 0px 0px 4px 12px rgba(0, 0, 0, 0.082);
+}
+
+.img {
+    display: block;
+    width: 12rem;
+    padding: 10px;
+    margin: auto;
+}

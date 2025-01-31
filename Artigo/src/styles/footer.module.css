@@ -1,0 +1,16 @@
+footer {
+    background-color: whitesmoke;
+    text-align: center;
+    padding: 10px;
+    font-size: 1.4rem;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+
+}
+
+a:hover {
+    text-decoration: underline;
+}
