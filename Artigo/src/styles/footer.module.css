@@ -1,16 +1,16 @@
-footer {
+.footer {
     background-color: whitesmoke;
     text-align: center;
     padding: 10px;
     font-size: 1.4rem;
 }
 
-a {
+.a {
     text-decoration: none;
     color: black;
 
 }
 
-a:hover {
+.a:hover {
     text-decoration: underline;
 }
